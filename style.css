@@ -50,10 +50,9 @@ body {
 
 .name {
 	font-size: 52px;
-	font-size: bold;
 	text-align: right;
 	color: #787878;
-	font-family: 'Raleway';
+	font-family: "Poppins";
 }
 
 #leftcontainer {
@@ -64,7 +63,8 @@ body {
 	float: left;
 	margin-left:70px;
 	margin-top:80px;
-	font-family: #C8C8C8;
+	font-family: "Raleway";
+	color: #787878;
 	font-size: 20px;
 	padding: 15px;
 	text-align: justify;
@@ -73,13 +73,14 @@ body {
 #jobtitle {
 	font-family: 'Noto Sans';
 	height: 30px;
-	width: 550;
+	width: 400;
 	font-size: 22px;
 	background: #FF9966;
 	color: white;
 	text-align: left;
 	border-radius: 3px;
-	margin-left: 20px;
+	margin-left: 25px;
+	padding: 5px;
 }
 
 #socialicons {
