@@ -87,6 +87,10 @@ body {
 	width: 200px;
 }
 
+#socialicons a {
+	text-decoration: none;
+}
+
 .github, .linkedin, .twitter {
 	color: teal;
 }
