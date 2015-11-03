@@ -49,62 +49,48 @@ body {
 }
 
 .name {
-font-size: 52px;
-font-size: bold;
-text-align: right;
-color: #787878;
-font-family: 'Raleway';
+	font-size: 52px;
+	font-size: bold;
+	text-align: right;
+	color: #787878;
+	font-family: 'Raleway';
 }
 
 #leftcontainer {
-border-radius: 10px;
-background: rgba(219, 219, 219, 0.9);
-width: 550px;
-height: 600px;
-float: left;
-margin-left:70px;
-margin-top:80px;
-font-family: #C8C8C8;
-font-size: 20px;
-padding: 15px;
-text-align: justify;
+	border-radius: 10px;
+	background: rgba(219, 219, 219, 0.9);
+	width: 550px;
+	height: 600px;
+	float: left;
+	margin-left:70px;
+	margin-top:80px;
+	font-family: #C8C8C8;
+	font-size: 20px;
+	padding: 15px;
+	text-align: justify;
 }
 
 #jobtitle {
-font-family: 'Noto Sans';
-height: 30px;
-width: 550;
-font-size: 22px;
-background: #FF9966;
-color: white;
-text-align: left;
-border-radius: 3px;
-margin-left: 20px;
+	font-family: 'Noto Sans';
+	height: 30px;
+	width: 550;
+	font-size: 22px;
+	background: #FF9966;
+	color: white;
+	text-align: left;
+	border-radius: 3px;
+	margin-left: 20px;
 }
 
 #socialicons {
-height: 20px;
-width:100px;
+	height: 30px;
+	width: 200px;
 }
 
-.twitter {
-	display: inline-block;
-	background: url('./images/twitter.png') no-repeat 0 -3px;
-	width: 24px;
-	height: 18px;
-}
-
-.twitter:hover {
-	display: inline-block;
-	background: url('./images/twitter.png') no-repeat 0 -37px;
-	width: 24px;
-	height: 18px;
-}
-
-.github, .linkedin {
+.github, .linkedin, .twitter {
 	color: teal;
 }
 
-.github:hover, .linkedin:hover  {
+.github:hover, .linkedin:hover, .twitter:hover {
 	opacity: 0.7;
 }
